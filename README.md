@@ -6,7 +6,7 @@ Compile *.proto file to JavaScript module
 1. [GTFS Realtime](#gtfs-realtime)
 
 # General
-This repository provides three folders for each compilation
+This repository provides three folders for each compilation.
 1. ```doc```: Documentation
 2. ```proto```: Source file
 3. ```js```: Result file
@@ -18,9 +18,9 @@ and installed in a global fashion like this.
 $ npm install -g pbf
 ```
 
-A compilation is done by calling the following instructions.
+A compilation is done by calling the following instruction.
 ```
 pbf ./proto/<file.proto> > ./js/<file.js>
 ```
 
-# [GTFS Realtime](./doc/gtfs-rt)
+# [GTFS Realtime](./doc/gtfs-rt.md)
